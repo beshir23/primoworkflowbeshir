@@ -5,9 +5,9 @@ jobs:
   print:
     runs-on: ubuntu-latest
     step:
-    - name: checkout repository
-      uses: actions/checkout@v3
+      - name: checkout repository
+        uses: actions/checkout@v3
 
 
-    - name: print hello-world on terminal
-      run: echo "$(cat hello_world.txt)"
+      - name: print hello-world on terminal
+        run: echo "$(cat hello_world.txt)"
